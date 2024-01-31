@@ -19,7 +19,7 @@ preco = float(input('Preço sem desconto: '))
 desc =  preco - (preco * 0.05)
 print('Preço com desconto de 5% {} reais'.format(desc))
 
-s = float(input('Valor do salário sem aumento: '))  # des 13 
+s = float(input('Valor do salário sem aumento: '))  # des 13
 au = s + (s * 0.15)
 print('Salário com aumento de 15% é de {:.2f} reais'.format(au))
 
@@ -41,7 +41,7 @@ print('Analisando o número {}, Seu sucessor é {} e seu antecessor é {}'.forma
 n1 = int(input('Digite um número: '))
 h = n1*2
 i = n1*3
-j = n1**2 
+j = n1**2
 l = n1**(1/2)
 print('A soma vale {}, o produto é {} e a divisão é {:.3f}'.format(s, m, d), end=' ')
 print('Divisão inteira {} e potência {}'.format(di, e))
@@ -55,3 +55,10 @@ print('Metros em cm é {}, e metros em ml é {}'.format(cent, mili))
 p = float(input('Digite o preço:'))
 p1 = p*0.05
 print('Preço original:', p, 'e seu novo preço com 5% de desconto será:', p1)
+
+
+# Ordem de precedencia
+# 1 ()
+# 2 **
+# 3 * // %
+# 4 + -
